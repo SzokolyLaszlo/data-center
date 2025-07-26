@@ -260,7 +260,7 @@ App.get('*', function(req, res) {
 
   res.sendFile(
 
-    Path.join(__dirname, '../frontend/build/index.html'),
+    '../frontend/build/index.html',
 
     function(err) {
 
