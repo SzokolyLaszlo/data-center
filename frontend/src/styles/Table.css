@@ -1,0 +1,26 @@
+.info-head{
+
+    color: rgb(0, 32, 96);
+}
+
+.info-head-data, .info-data{
+
+    text-align: right;
+}
+
+.info-head-data:nth-child(1){
+
+    text-align: center;
+}
+
+.info-data:nth-child(1){
+
+    text-align: left;
+}
+
+.info-foot-data{
+
+    padding: 5px 0 0 0;
+    font-size: 13px;
+    font-style: italic;
+}

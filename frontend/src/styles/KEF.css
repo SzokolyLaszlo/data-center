@@ -1,0 +1,12 @@
+.kef .source-table .info-head-data,
+.kef .source-table .info-data:nth-child(1),
+.kef .source-table .info-data:nth-child(2),
+.kef .source-table .info-data:nth-child(3){
+
+    text-align: left;
+}
+
+.kef .source-table .info-row:nth-child(4n-3){
+
+    font-weight: bold;
+}

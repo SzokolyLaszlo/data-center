@@ -1,0 +1,24 @@
+.main-table{
+
+    padding: 20px 0;
+    border-collapse: collapse;
+}
+
+.main-table .info-head-data,
+.main-table .info-data{
+
+    min-width: 91px;
+    padding: 0.2em;
+}
+
+.main-table .info-head-data:nth-child(1),
+.main-table .info-data:nth-child(1){
+
+    padding-left: 0; 
+}
+
+.main-table .info-head-data:last-child,
+.main-table .info-data:last-child{
+
+    padding-right: 0; 
+}

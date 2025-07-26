@@ -1,0 +1,71 @@
+.food-bank{
+
+    width: 90%;
+}
+
+.food-bank-table-container{
+
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+}
+
+.food-bank-table .info-head-data{
+
+    text-align: right;
+}
+
+.food-bank-table .info-head-data:nth-child(1){
+
+    text-align: center;
+}
+
+.food-bank-table .info-data,
+.food-bank-table .info-head-data{
+
+    padding: 0 20px 0 0;
+}
+
+.food-bank-table .info-data:nth-child(1),
+.food-bank-table .info-head-data:nth-child(1){
+
+    width: 365px;
+}
+
+.small-table{
+
+    padding: 20px 30px;
+    border: 1px solid rgb(0, 32, 96);
+    box-shadow: 1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border-spacing: 0;
+}
+
+.small-table .info-head-data{
+
+    text-align: left;
+}
+
+.small-table .info-data,
+.small-table .info-head-data{
+
+    padding: 1px 10px 1px 10px;
+}
+
+.small-table .info-row:last-child{
+
+    color: rgb(0, 32, 96);
+    font-weight: bold;
+}
+
+#truck{
+    
+    width: 10%;
+    min-width: 120px;
+    padding: 0 20px;
+    margin: auto 0;
+}

@@ -1,0 +1,72 @@
+.quarterly-year-container{
+
+    width: 90%;
+    padding-bottom: 1.25em;
+}
+
+.quarterly-year-subcontainer{
+
+    display: flex;
+    gap: 1.25em;
+    padding-top: 1.5em;
+}
+
+.quarterly-year-subcontainer .main-table{
+
+    display: block;
+    width: 39em;
+    flex-shrink: 0;
+}
+
+.quarterly-year-subcontainer .main-table .info-data{
+
+    max-height: 3em;
+}
+
+.quarterly-year-subcontainer .graph{
+
+    height: 15em;
+    padding: 0 0.25em;
+}
+
+.quarterly-year-subcontainer .graph .graph-array{
+
+    left: 32.5%;
+    width: 57%;
+}
+
+.quarterly-year-subcontainer .graph .graph-head-data{
+
+    top: 4em;
+}
+
+.quarterly-year-subcontainer .filter-selector-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.quarterly-year-subcontainer .filter-selector,
+.quarterly-year-subcontainer .filter-selector .vertical-selector{
+
+    width: 12em;
+}
+
+.quarterly-year-subcontainer .filter-selector .vertical-selector{
+
+    height: 100%;
+    padding-right: 0;
+}
+
+.quarterly-year-subcontainer .filter-selector:nth-child(1) .filter-selector-body{
+
+    height: 12em;
+}
+
+.quarterly-year-subcontainer .filter-selector .button,
+.quarterly-year-subcontainer .filter-selector .button-clicked{
+
+    width: 100%;
+}

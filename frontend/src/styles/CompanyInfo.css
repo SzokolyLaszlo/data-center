@@ -1,0 +1,184 @@
+.company-info{
+
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.info-page{
+
+    width: 100%;
+}
+
+.info-page .main-table-container{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-page .main-table{
+
+    width: 100%;
+}
+
+.info-page .head-filter-container{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.kef-page .source-table .info-head-data,
+.kef-page .source-table .info-data:nth-child(1),
+.kef-page .source-table .info-data:nth-child(2),
+.kef-page .source-table .info-data:nth-child(3){
+
+    text-align: left;
+}
+
+.kef-page .source-table .info-row:nth-child(4n-3){
+
+    font-weight: bold;
+}
+
+@media(max-width: 1825px){
+
+    .navbar{
+
+        min-width: 125px;
+    }
+
+    .navbar .public,
+    .navbar .general,
+    .navbar .private,
+    .navbar .public-clicked,
+    .navbar .general-clicked,
+    .navbar .private-clicked{
+
+        width: 135px;
+        height: 53px;
+        font-size: 11px;
+    }
+
+    .navbar .main,
+    .navbar .main:hover,
+    .navbar .main-clicked{
+
+        width: 177px;
+        height: 92.8px;
+        font-size: 11px;
+    }
+
+    .info-page .header .last-update{
+
+        font-size: 15px;
+    }
+
+    .info-page .header #logo{
+
+        width: 150px;
+    }
+
+    .info-page .header h3{
+
+        font-size: 15px;
+    }
+
+    .info-page .header p{
+
+        font-size: 19px;
+    }
+
+    .info-page .main-table{
+
+        padding: 10px 0;
+    }
+
+    .info-page .main-table,
+    .info-page .food-bank-table,
+    .info-page .small-table,
+    .info-page .cost-centre-table,
+    .info-page .cost-centre-table .table-head-with-filter p{
+
+        font-size: 13px;
+    }
+
+    .info-page .main-table .info-head-data,
+    .info-page .main-table .info-data,
+    .info-page .food-bank-table .info-head-data,
+    .info-page .food-bank-table .info-data,
+    .info-page .cost-centre-table .info-head-data,
+    .info-page .cost-centre-table .info-data{
+
+        min-width: 75px;
+    }
+
+    .info-page .main-table .info-foot-data{
+
+        font-size: 11px;
+    }
+
+    .info-page .food-bank-table .info-head-data:nth-child(1),
+    .info-page .food-bank-table .info-data:nth-child(1){
+
+        width: 300px;
+    }
+
+    .info-page .food-bank-table .info-foot-data{
+
+        font-size: 10px;
+    }
+
+    .info-page .graph-container{
+
+        padding: 0;
+        height: 260px;
+    }
+
+    .info-page .graph-selector{
+
+        width: 265px;
+    }
+
+    .info-page .graph-selector .button,
+    .info-page .graph-selector .button-clicked{
+
+        width: 265px;
+        font-size: 11px;
+        height: 20px;
+    }
+
+    .info-page .graph .graph-title{
+
+        font-size: 16px;
+    }
+
+    .info-page .graph .graph-subcontainer{
+
+        font-size: 12px;
+    }
+
+    .info-page .framed-label{
+
+        width: 155px;
+        height: 20px;
+        margin: 18px 0 15px 0;
+    }
+
+    .info-page .framed-label h4{
+
+        font-size: 20px;
+    }
+
+    .info-page .crisis-accommodation-container p{
+
+        font-size: 13px;
+    }
+
+    .info-page .side-filter-container{
+
+        padding-right: 20px;
+    }
+}

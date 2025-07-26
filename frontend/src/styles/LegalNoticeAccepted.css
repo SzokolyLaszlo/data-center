@@ -1,0 +1,61 @@
+.legal-notice-accepted{
+
+    width: 100%;
+}
+
+.legal-notice-accepted-container{
+
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-notice-accepted #logo{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.legal-notice-accepted .legal-notice-text{
+
+    margin: 50px auto;
+}
+
+.legal-notice-accepted .framed-label{
+
+    box-sizing: border-box;
+    width: 225px;
+    height: 77px;
+    margin: 0 auto;
+    border-radius: 0;
+    border-color: rgb(0, 32, 96, 0.5);
+}
+
+.legal-notice-accepted .framed-label h4{
+
+    color: rgb(0, 32, 96, 0.5);
+    position: relative;
+    left: 15px;
+}
+
+@media(max-width: 1536px){
+
+    .legal-notice-accepted #logo{
+
+        width: 150px;
+    }
+
+    .legal-notice-accepted .legal-notice-text{
+
+        margin: 25px auto;
+    }
+
+    .legal-notice-accepted .legal-notice-text p{
+
+        font-size: 15px;
+    }
+}

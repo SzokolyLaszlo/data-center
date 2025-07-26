@@ -1,0 +1,32 @@
+.framed-label{
+
+    display: flex;
+    padding: 20px;
+    margin: 25px 0 20px 0;
+    border: 1px solid rgb(0, 32, 96);
+    box-shadow: 1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1);
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.framed-label h4{
+
+    color: rgb(0, 32, 96);
+    font-size: 24px;
+    display: inline;
+    margin: 0;
+}
+
+.framed-label img{
+
+    width: 35px;
+    padding: 0 5px;
+    position: relative;
+    left: 15px;
+}

@@ -1,0 +1,50 @@
+.horizontal-selector,
+.vertical-selector{
+
+    display: flex;
+    justify-content: start;
+    height: 80%;
+    gap: 2px;
+}
+
+.horizontal-selector{
+
+    width: 100%;
+    flex-direction: row;
+}
+
+.vertical-selector{
+
+    padding-right: 19px;
+    width: 320px;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.horizontal-selector .button,
+.horizontal-selector .button-clicked,
+.vertical-selector .button,
+.vertical-selector .button-clicked{
+
+    height: 20px;
+    flex-shrink: 0;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.horizontal-selector .button,
+.horizontal-selector .button-clicked{
+
+    flex-grow: 1;
+}
+
+.vertical-selector .button,
+.vertical-selector .button-clicked{
+
+    width: 320px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,29 @@
+.button,
+.button-clicked{
+
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background: rgb(193, 193, 193);
+    cursor: pointer;
+}
+
+.button:hover{
+
+    background: linear-gradient(to bottom, rgba(255, 243, 70, 0.844), rgba(246, 244, 213, 0.844));
+    border: 1px solid rgb(193, 193, 193);
+}
+
+.button-clicked{
+
+    background: rgb(227, 124, 15);
+    color: rgb(255, 255, 255);
+}
+
+.company-selector .button,
+.company-selector .button-clicked{
+    
+    margin: 0 auto;
+}

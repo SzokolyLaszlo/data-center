@@ -1,0 +1,43 @@
+.source-table-container{
+
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    padding: 15px 25px 20px 25px;
+}
+
+.source-table{
+
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.source-table .info-head-data{
+
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px 7px;
+}
+
+.source-table .info-head-data:last-child{
+
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.source-table .info-data{
+
+    padding: 2.5px 5px;
+}
+
+.source-table .info-row:nth-child(2n-1){
+
+    background: rgb(192, 230, 245);
+}
+
+@media(max-width: 1825px){
+    
+    .source-table .table-head-with-filter p,
+    .source-table .info-data{
+        
+        font-size: 13px;
+    }
+}

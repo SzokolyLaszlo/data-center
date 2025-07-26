@@ -1,0 +1,29 @@
+.graph-bar{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.graph-value{
+
+    font-size: inherit;
+    color: rgb(77, 77, 77);
+    font-weight: normal;
+    height: 1em;
+    width: 5.5em;
+    margin: 0.14em;
+    position: absolute;
+}
+
+.graph-picture{
+
+    background-color: rgb(91, 155, 213);
+    width: 1.5em;
+    margin: 0 auto;
+    position: absolute;
+}

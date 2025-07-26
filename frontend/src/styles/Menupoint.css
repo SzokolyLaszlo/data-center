@@ -1,0 +1,82 @@
+.main, .public, .general, .private,
+.main-clicked, .public-clicked, .general-clicked, .private-clicked{
+
+    display: block;
+    border: none;
+    width: 165px;
+    height: 65px;
+    cursor: pointer;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 1px 3px 5px 1px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-align: left;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.public{
+
+    background: rgb(47, 85, 151);
+    color: rgb(255, 255, 255);
+}
+
+.main,
+.main:hover,
+.main-clicked{
+
+    height: 105px;
+    width: 197px;
+    background: rgb(0, 32, 96);
+    color: rgb(255, 255, 255);
+}
+
+.public:hover{
+
+    background: rgb(47, 85, 151);
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+}
+
+.public-clicked{
+    background: rgb(157, 195, 230);
+}
+
+.general{
+    
+    background: rgb(50, 110, 170);
+    color: rgb(255, 255, 255);
+}
+
+.general:hover{
+    
+    background: rgb(50, 110, 170);
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+}
+
+.general-clicked{
+
+    background: rgb(157, 195, 230);
+    color: rgb(2, 2, 2);
+}
+
+.private{
+
+    background: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+}
+
+.private:hover{
+
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(2, 2, 2);
+    border-left: none;
+}
+
+.private-clicked
+{
+    background: rgb(183, 178, 178);
+}

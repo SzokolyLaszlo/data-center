@@ -1,0 +1,10 @@
+.graph-array{
+
+    width: 85%;
+    position: absolute;
+    left: 11.5%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}

@@ -1,0 +1,33 @@
+.company-selector .horizontal-selector,
+.company-selector-collective .horizontal-selector{
+
+    height: 25px;
+    width: 468px;
+    display: grid;
+}
+
+.company-selector .horizontal-selector{
+
+    
+    grid-template-columns: 150px 170px 150px;
+}
+
+.company-selector-collective .horizontal-selector{
+
+    grid-template-columns: 110px 110px 100px 40px 100px;
+}
+
+.company-selector-collective .horizontal-selector .button,
+.company-selector-collective .horizontal-selector .button-clicked,
+.company-selector .horizontal-selector .button,
+.company-selector .horizontal-selector .button-clicked{
+
+    height: 25px;
+    text-align: center;
+}
+
+.company-selector .horizontal-selector .button,
+.company-selector .horizontal-selector .button-clicked{
+
+    width: 150px;
+}

@@ -1,0 +1,251 @@
+.user-manual{
+
+    width: 100%;
+}
+
+.user-manual-large-container{
+
+    display: flex;
+    gap: 25px;
+    position: relative;
+    width: 90%;
+}
+
+.user-manual-left-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.user-manual-middle-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.user-manual-right-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.user-manual .framed-button{
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.user-manual #company-info-image{
+
+    width: 975px;
+    box-shadow: 1px 3px 5px inset rgb(0, 0, 0, 0.2),
+                1px 3px 5px inset rgb(0, 0, 0, 0.2),
+                10px 1px 25px 3px rgb(0, 0, 0, 0.2),
+                1px 10px 25px 3px rgb(0, 0, 0, 0.2);
+}
+
+.user-manual #logo{
+
+    width: 182px;
+    margin-left: auto;
+}
+
+.user-manual-right-container .framed-paragraph{
+
+    margin-right: auto;
+}
+
+.user-manual-large-container .arrow0{
+
+    position: absolute;
+    top: 58px;
+    left: 227px;
+}
+
+.user-manual-large-container .arrow1{
+
+    position: absolute;
+    top: 120px;
+    left: 212px;
+}
+
+.user-manual-large-container .arrow2{
+
+    position: absolute;
+    top: 235px;
+    left: 225px;
+}
+
+.user-manual-large-container .arrow3{
+
+    position: absolute;
+    top: 342px;
+    left: 225px;
+}
+
+.user-manual-large-container .arrow4{
+
+    position: absolute;
+    top: 498px;
+    left: 115px;
+}
+
+.user-manual-large-container .arrow5{
+
+    position: absolute;
+    top: 630px;
+    left: 207px;
+}
+
+.user-manual-large-container .arrow6{
+
+    position: absolute;
+    top: 137px;
+    left: 996px;
+}
+
+.site-info .arrow-div1{
+
+    background: rgb(112, 173, 71);
+}
+
+.site-info .arrow-div2{
+
+    border-left-color: rgb(112, 173, 71);
+}
+
+@media(max-width: 1825px){
+
+    .user-manual .user-manual-large-container .framed-paragraph{
+
+        width: 187px;
+    }
+
+    .user-manual .user-manual-large-container .framed-paragraph p{
+
+        font-size: 11px;
+    }
+
+    .user-manual #company-info-image{
+
+        width: 675px;
+    }
+
+    .user-manual #logo{
+
+        width: 150px;
+    }
+
+    .user-manual-large-container .arrow0{
+
+        left: 216px;
+    }
+
+    .user-manual-large-container .arrow1{
+
+        top: 88px;
+        left: 205px;
+    }
+
+    .user-manual-large-container .arrow1 .arrow-div1{
+
+        width: 122px;
+    }
+
+    .user-manual-large-container .arrow1 .arrow-div2{
+
+        top: -38px;
+        left: -12px;
+    }
+
+    .user-manual-large-container .arrow2{
+
+        top: 168px;
+        left: 215px;
+    }
+
+    .user-manual-large-container .arrow2 .arrow-div1{
+
+        width: 100px;
+    }
+
+    .user-manual-large-container .arrow2 .arrow-div2{
+
+        top: -14.5px;
+    }
+
+    .user-manual-large-container .arrow3{
+
+        top: 242px;
+        left: 214px;
+    }
+
+    .user-manual-large-container .arrow3 .arrow-div1{
+
+        width: 100px;
+        transform: rotate(0deg);
+    }
+
+    .user-manual-large-container .arrow3 .arrow-div2{
+
+        top: -0px;
+        left: -1px;
+        transform: rotate(0deg);
+    }
+
+    .user-manual-large-container .arrow4{
+
+        top: 386px;
+    }
+
+    .user-manual-large-container .arrow4 .arrow-div2{
+
+        left: -12.5px;
+    }
+
+    .user-manual-large-container .arrow5{
+
+        top: 457px;
+        left: 202px;
+    }
+
+    .user-manual-large-container .arrow5 .arrow-div1{
+
+        width: 183px;
+    }
+
+    .user-manual-large-container .arrow5 .arrow-div2{
+
+        top: -48px;
+        left: -14px;
+    }
+
+    .user-manual-large-container .arrow6{
+
+        top: 113px;
+        left: 750px;
+    }
+
+    .user-manual-large-container .arrow6 .arrow-div1{
+
+        width: 233px;
+        transform: rotate(32deg);
+    }
+
+    .user-manual-large-container .arrow6 .arrow-div2{
+
+        top: -65px;
+        left: -228px;
+        transform: rotate(212deg);
+    }
+}

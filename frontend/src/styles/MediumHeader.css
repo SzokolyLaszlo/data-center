@@ -1,0 +1,8 @@
+.medium-header{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 15px 0 0 0;
+}

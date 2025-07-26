@@ -1,0 +1,50 @@
+.site-info{
+
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.site-info .navbar .public{
+
+    background: rgb(84, 130, 53);
+}
+
+.site-info .navbar .general{
+    
+    background: rgb(96, 155, 58);
+}
+
+.site-info .navbar .main-clicked,
+.site-info .navbar .public-clicked,
+.site-info .navbar .general-clicked{
+
+    background: rgb(169, 209, 142);
+}
+
+.site-info .navbar .main,
+.site-info .navbar .main:hover,
+.site-info .navbar .main-clicked,
+.site-info .profile-bar{
+
+    background: rgb(56, 87, 35);
+}
+
+.site-info .profile-bar{
+
+    border: 0.05em solid rgb(56, 87, 35);
+    border-top: none;
+    border-right: none;
+}
+
+.site-info .profile-bar:hover{
+
+    border: 0.05em solid #ffffff;
+    border-top: none;
+    border-right: none;
+}
+
+.site-info .blank-site-info-page{
+
+    width: 100%;
+}

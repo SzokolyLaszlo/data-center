@@ -1,0 +1,9 @@
+.graph-container{
+
+    width: 90%;
+    height: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.2em;
+}

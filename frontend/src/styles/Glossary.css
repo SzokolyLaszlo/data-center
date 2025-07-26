@@ -1,0 +1,83 @@
+.glossary{
+
+    width: 100%;
+}
+
+.glossary-container{
+
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.glossary-header{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.glossary .framed-button{
+
+    margin: 38px 25px;
+    width: 300px;
+    height: 80px;
+}
+
+.glossary .glossary-container .source-table-container{
+
+    width: 95.5%;
+    border-spacing: 0;
+    border-radius: 20px;
+    padding: 15px 25px 20px 25px;
+}
+
+.glossary .glossary-table .info-head-data,
+.glossary .glossary-table .info-data{
+
+    text-align: left;
+}
+
+.glossary .glossary-table .info-head-data{
+
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px 7px;
+}
+
+.glossary .glossary-table .info-data{
+
+    padding: 2.5px 8px;
+}
+
+.glossary .glossary-table .info-head-data:nth-child(2){
+
+    border-left: none;
+    border-right: none;
+}
+
+@media(max-width: 1825px){
+
+    .glossary .framed-button{
+
+        margin: 20px 25px 15px 25px;
+    }
+
+    .glossary #logo{
+
+        width: 150px;
+    }
+
+    .glossary .glossary-table{
+
+        padding-top: 5px;
+    }
+    
+    .glossary .glossary-table .table-head-with-filter p,
+    .glossary .glossary-table .info-data{
+        
+        font-size: 13px;
+    }
+}

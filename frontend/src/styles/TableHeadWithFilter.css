@@ -1,0 +1,29 @@
+.table-head-with-filter{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.table-head-with-filter p{
+
+    font-size: 16px;
+}
+
+.table-head-with-filter .button-with-icon,
+.table-head-with-filter .button-with-icon-clicked{
+
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 0;
+}
+
+.table-head-with-filter .button-with-icon img,
+.table-head-with-filter .button-with-icon-clicked img{
+
+    width: 8px;
+}

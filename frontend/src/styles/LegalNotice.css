@@ -1,0 +1,56 @@
+.legal-notice{
+
+    padding: 0;
+    margin: 75px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+}
+
+.legal-notice #logo{
+
+    margin-bottom: 20px;    
+}
+
+.legal-notice .framed-button{
+
+    margin: 30px 0 0 0;
+}
+
+@media(max-width: 1536px){
+
+    .legal-notice{
+
+        margin: 35px auto 0 auto;
+    }
+
+    .legal-notice #logo{
+
+        width: 150px;
+    }
+
+    .legal-notice .legal-notice-text p{
+
+        font-size: 15px;
+    }
+
+    .legal-notice .framed-button{
+
+        margin: 15px 0 0 0;
+    }
+}
+
+@media(max-width: 595px){
+
+    .legal-notice{
+
+        width: 325px;
+    }
+
+    .legal-notice .legal-notice-text{
+
+        width: 325px;
+    }
+}

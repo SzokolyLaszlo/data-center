@@ -1,0 +1,51 @@
+.dialogue-window-success-handler{
+
+    width: 10em;
+    height: 6em;
+}
+
+.success-handler{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.success-handler p{
+
+    font-size: 16px;
+    color: rgb(0, 32, 96);
+    text-align: center;
+}
+
+.success-handler .button-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-handler .button-container .okay-button{
+
+    color: #ffffff;
+    background: rgb(76, 175, 80);
+    border: 2px solid rgb(76, 175, 80);
+}
+
+.success-handler .button-container .okay-button-unavailable,
+.success-handler .button-container .okay-button-unavailable:hover{
+    
+    cursor: default;
+    color: #ffffff;
+    background: rgb(124, 197, 124);
+    border: 2px solid rgb(124, 197, 124);
+}
+
+.success-handler .button-container .okay-button:hover{
+
+    background: rgb(68, 156, 71);
+    border: 2px solid #000000;
+}

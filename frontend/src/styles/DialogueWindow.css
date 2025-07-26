@@ -1,0 +1,34 @@
+.backdrop{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.dialogue-window,
+.dialogue-window-password-changer,
+.dialogue-window-success-handler{
+
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+
+.dialogue-window{
+
+    width: 28em;
+    height: 19em;
+}

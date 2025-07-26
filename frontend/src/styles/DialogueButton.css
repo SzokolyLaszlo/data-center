@@ -1,0 +1,32 @@
+.button-container button,
+.dialogue-button,
+.dialogue-button-unavailable{
+
+    font-size: 14px;
+    height: 2.5em;
+    width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container button,
+.dialogue-button{
+
+    background: #cccccc;
+    border: 2px solid #cccccc;
+}
+
+.dialogue-button-unavailable{
+
+    background: #efefef;
+    border: 2px solid #efefef;
+}
+
+.button-container button:hover,
+.dialogue-button:hover{
+
+    cursor: pointer;
+    background: #bfbfbf;
+    border: 2px solid #000000;
+}

@@ -1,0 +1,13 @@
+.date-selector{
+
+    display: flex;
+    gap: 10px;
+}
+
+.year-selector,
+.month-selector{
+
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}

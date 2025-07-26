@@ -1,0 +1,27 @@
+.framed-button{
+
+    color: rgb(0, 32, 96);
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 32, 96);
+    box-shadow: 1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px inset rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1),
+                1px 3px 5px 1px rgb(0, 0, 0, 0.1);
+    width: 200px;
+    height: 60px;
+    border-radius: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.framed-button:hover,
+.framed-button:focus{
+
+    color: rgb(0, 32, 96);
+    background: #efefef;
+    border: 1px solid rgb(2, 2, 2);
+}

@@ -1,0 +1,12 @@
+@media(max-width: 1825px){
+
+    .blank-info-page .title-container h2{
+
+        font-size: 32px;
+    }
+
+    .blank-info-page .title-container h3{
+
+        font-size: 24px;
+    }
+}

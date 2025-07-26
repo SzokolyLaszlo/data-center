@@ -1,0 +1,25 @@
+.company-info-title,
+.site-info-title,
+.company-info-subtitle,
+.site-info-subtitle{
+
+    width: 90%;
+    text-align: center;
+    color: rgb(0, 32, 96);
+    font-weight: bold;
+    margin: 0;
+}
+
+.company-info-title,
+.site-info-title{
+
+    font-size: 38px;
+    padding: 20px 0 0 0;
+}
+
+.company-info-subtitle,
+.site-info-subtitle{
+
+    font-size: 28px;
+    padding: 4px 0 20px 0;
+}

@@ -1,0 +1,10 @@
+body{
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(217, 225, 242);
+  color: black;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}

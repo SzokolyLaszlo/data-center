@@ -1,0 +1,63 @@
+.profile-bar-container,
+.profile-bar{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.profile-bar{
+    
+    width: 13em;
+    height: 4.5em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgb(0, 32, 96);
+    border: 0.05em solid rgb(0, 32, 96);
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 3px 5px 1px rgb(0, 0, 0, 0.5);
+}
+
+.profile-bar:hover{
+
+    border: 0.05em solid #ffffff;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.profile-bar .profile-picture-container{
+
+    padding: 0.25em;
+    margin: 0.5em 1em;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.profile-bar #profile-picture{
+
+    height: 2em;
+}
+
+.profile-bar .profile-data-container{
+
+    padding: 0.5em 0;
+}
+
+.profile-bar .profile-data-container p{
+
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.profile-bar .profile-data-container p:nth-child(1){
+
+    font-weight: bold;
+    font-size: 16px;
+}

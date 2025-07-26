@@ -1,0 +1,173 @@
+.document-table-container{
+
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.document-table{
+
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 23px;
+}
+
+.document-table .info-row{
+
+    box-sizing: border-box;
+    height: 2.5em;
+}
+
+.document-table .info-row:hover{
+
+    background: rgb(243, 242, 241);
+}
+
+.document-table .info-head-data{
+    
+    border-bottom: 0.1em solid rgb(193, 193, 193);
+    text-align: left;
+}
+
+.document-table .info-data{
+    
+    border-bottom: 0.05em solid rgb(193, 193, 193);
+}
+
+.document-table .info-data,
+.document-table .info-head-data{
+
+    text-align: left;
+    padding: 0.5em;
+}
+
+.document-table .info-data .document-paragraph{
+
+    height: 100%;
+}
+
+.document-table #folder,
+.document-table #file,
+.document-table #image,
+.document-table #text,
+.document-table #pdf,
+.document-table #word,
+.document-table #excel,
+.document-table #powerpoint,
+.document-table #video{
+
+    height: 2em;
+}
+
+
+.document-table .info-data:nth-child(1) .document-paragraph{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.document-table .info-data:nth-child(1),
+.document-table .info-head-data:nth-child(1){
+
+    min-width: 2.1em;
+}
+
+.document-table .info-data:nth-child(2),
+.document-table .info-head-data:nth-child(2){
+
+    min-width: 25em;
+}
+
+.document-table .info-data:nth-child(3),
+.document-table .info-head-data:nth-child(3){
+
+    min-width: 10em;
+}
+
+.document-table .info-data:nth-child(4),
+.document-table .info-head-data:nth-child(4){
+
+    min-width: 8em;
+}
+
+.document-table .info-data:nth-child(5),
+.document-table .info-head-data:nth-child(5){
+
+    width: 100%;
+}
+
+.document-table .info-head-data{
+
+    color: #002060;
+}
+
+.document-table .info-data .document-paragraph{
+
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.document-table .info-data:nth-child(3) .document-paragraph,
+.document-table .info-data:nth-child(4) .document-paragraph{
+
+    color: rgb(112, 110, 108);
+    font-size: 14px;
+}
+
+.document-table .info-data:nth-child(4) .document-paragraph{
+
+    border-radius: 30px;
+    background: rgb(237, 235, 233);
+    text-align: center;
+    padding: 0.2em 0.7em;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+.document-table .info-data:nth-child(4) .document-paragraph:empty{
+
+    display: none;
+}
+
+.document-table .document-buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 0.5em;
+}
+
+.document-table .button-with-icon{
+
+    width: 2.5em;
+    height: 2.5em;
+    background: #ffffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+
+.document-table .button-with-icon:hover{
+
+    border: none;
+}
+
+.document-table #download,
+.document-table #rename,
+.document-table #delete{
+
+    height: 2.5em;
+}
+
+.document-table #download:hover,
+.document-table #rename:hover,
+.document-table #delete:hover{
+
+    border: 0.15em solid #000000;
+    border-radius: 13px;
+}

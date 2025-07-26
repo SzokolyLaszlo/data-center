@@ -1,0 +1,61 @@
+.graph{
+
+    width: 70%;
+    padding-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.graph-subcontainer{
+
+    font-size: 14px;
+    position: relative;
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.graph-title, .graph-head-data, .graph-data{
+
+    color: rgb(77, 77, 77);
+    font-weight: normal;
+}
+
+.graph-title{
+
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    height: 1.5em;
+}
+
+.graph-head-data{
+
+    text-align: left;
+    transform: rotate(45deg);
+    position: relative;
+    top: 3em;
+}
+
+.graph-head-data, .graph-data{
+
+    width: 8.2%;
+}
+
+.graph-head-data:nth-child(1), .graph-data:nth-child(1){
+
+    min-width: 6.5em;
+}
+
+.placeholder{
+
+    background: transparent;
+    color: transparent;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    height: 1.3em;
+}

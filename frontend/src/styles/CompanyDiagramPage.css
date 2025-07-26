@@ -1,0 +1,32 @@
+.company-diagram-page{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-diagram-container{
+    
+    width: 90%;
+    position: relative;
+}
+
+.company-diagram-container #logo{
+
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#company-diagram{
+
+    width: 70em;
+}
+
+@media(max-width: 1825px){
+
+    .company-diagram-container #logo{
+
+        width: 150px;
+    }
+}

@@ -1,0 +1,29 @@
+.highlighted-data{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlighted-data:nth-child(8){
+
+    min-width: 135px;
+}
+
+h3{
+
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+
+    color: rgb(0, 32, 96);
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0;
+    margin: 5px 0;
+}

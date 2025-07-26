@@ -1,0 +1,57 @@
+.cost-centre-catalogue{
+
+    width: 90%;
+}
+
+.search-bar-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar-container .search-bar{
+
+    width: 22.25em;
+    height: 1.75em;
+}
+
+.head-filter-container .filter-selector:nth-child(1){
+
+    width: 304px;
+}
+
+.head-filter-container .filter-selector:nth-child(2){
+
+    width: 240px;
+}
+
+.head-filter-container .filter-selector .button,
+.head-filter-container .filter-selector .button-clicked{
+
+    flex-grow: 0;
+}
+
+.head-filter-container .filter-selector:nth-child(2) .button,
+.head-filter-container .filter-selector:nth-child(2) .button-clicked{
+
+    width: 119px;
+}
+
+.head-filter-container .filter-selector:nth-child(3) .button,
+.head-filter-container .filter-selector:nth-child(3) .button-clicked{
+
+    width: 120px;
+}
+
+
+.side-filter-container{
+
+    width: 20%;
+}
+
+.cost-centre-table-container{
+
+    display: flex;
+    justify-content: space-between;
+}
