@@ -256,7 +256,7 @@ App.get('/api/tia/koltseghelyek', async function (req, res) {
 
 
 
-App.get('/*', function(req, res) {
+App.get('*', function(req, res) {
 
   res.sendFile(
 
