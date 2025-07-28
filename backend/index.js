@@ -23,7 +23,6 @@ const CdHandler = require('./handlers/CompanyDataHandler');
 const DfsHandler = require('./handlers/DbFieldSelectorHandler');
 const CccHandler = require('./handlers/CostCentreCatalogueHandler');
 const FsHandler = require('./handlers/FileSystemHandler');
-const Fs = require('fs');
 
 
 
@@ -47,11 +46,9 @@ App.use(Cors(CorsOptions));
 App.use(CookieParser());
 App.use(Express.static(Path.join(parentDir, '/frontend/build')));
 
-console.log(parentDir + '/frontend/build');
-
 App.listen(port, () => {
 
-  console.log(`CompanyInfo WebApp listening at ${url}:${port}`);
+  console.log(`DataCenter webapp listening at ${url}:${port}`);
 });
 
 
@@ -272,9 +269,6 @@ App.get('*', function(req, res) {
       if (err) {
 
         console.log(err);
-        console.log(Fs.readdirSync(parentDir));
-        console.log(Fs.readdirSync(parentDir + '/frontend'));
-        console.log(Fs.readdirSync(parentDir + '/frontend/build'));
         res.status(500).send(err);
       }
   });
