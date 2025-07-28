@@ -49,6 +49,11 @@ App.listen(port, () => {
   console.log(`CompanyInfo WebApp listening at ${url}:${port}`);
 });
 
+console.log(process.env.BACKEND_URL);
+console.log(process.env.PORT);
+console.log(process.env.MONGO_URL);
+console.log(process.env.JWT_SECRET);
+
 
 
 App.get('/api/login', async function (req, res) {
