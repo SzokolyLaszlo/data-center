@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.742d2029.css",
+    "main.js": "/static/js/main.07c6cce5.js",
+    "static/media/background.jpg": "/static/media/background.a1eb1f99a32f5dc70d0b.jpg",
+    "static/media/company_diagram.png": "/static/media/company_diagram.0905fb537f8023023d2d.png",
+    "static/media/company_info.png": "/static/media/company_info.c14319b9384981fc28a1.png",
+    "static/media/logo.png": "/static/media/logo.0365004a1b62e5d5c12f.png",
+    "static/media/logo_white_with_blue_corner.png": "/static/media/logo_white_with_blue_corner.e77848f854765ded7d5b.png",
+    "static/media/eye.png": "/static/media/eye.c19b9e3590579a3ec888.png",
+    "static/media/check_mark.png": "/static/media/check_mark.0ad340259a8c140a65cd.png",
+    "static/media/profile_picture.png": "/static/media/profile_picture.c920752422c11377083e.png",
+    "static/media/logo_white.png": "/static/media/logo_white.755644e4c6b9157d0874.png",
+    "static/media/eye_crossed.png": "/static/media/eye_crossed.54b3107d160578572bcc.png",
+    "static/media/delete_filter.png": "/static/media/delete_filter.055a838073134db5e13d.png",
+    "static/media/rename.png": "/static/media/rename.8a4e4faee5a0797f4809.png",
+    "static/media/mail.png": "/static/media/mail.2c378c9ee25927123f7d.png",
+    "static/media/pdf.png": "/static/media/pdf.28c74a4cd1f3ab3cd066.png",
+    "static/media/delete.png": "/static/media/delete.1cc4e14bbea4aded44c1.png",
+    "static/media/upload.png": "/static/media/upload.c30dc44ea655da4b1f31.png",
+    "static/media/download.png": "/static/media/download.42c73a4eb570b50f4a9e.png",
+    "index.html": "/index.html",
+    "main.742d2029.css.map": "/static/css/main.742d2029.css.map",
+    "main.07c6cce5.js.map": "/static/js/main.07c6cce5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.742d2029.css",
+    "static/js/main.07c6cce5.js"
+  ]
+}
