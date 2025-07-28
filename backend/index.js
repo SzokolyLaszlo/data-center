@@ -29,6 +29,8 @@ const FsHandler = require('./handlers/FileSystemHandler');
 const url = process.env.BACKEND_URL;
 const port = process.env.PORT;
 
+const parentDir = Path.normalize(__dirname + '/..');
+
 const db0 = "Metadata";
 const db1 = 'CompanyInfo';
 const db2 = 'SiteInfo';
@@ -42,9 +44,9 @@ const App = Express();
 
 App.use(Cors(CorsOptions));
 App.use(CookieParser());
-App.use(Express.static(__dirname + '/../frontend/build'));
+App.use(Express.static(parentDir + '/frontend/build'));
 
-console.log(__dirname + '/../frontend/build');
+console.log(parentDir + '/frontend/build');
 
 App.listen(port, () => {
 
@@ -262,7 +264,7 @@ App.get('*', function(req, res) {
 
   res.sendFile(
 
-    __dirname + '/../frontend/build/index.html',
+    parentDir + '/frontend/build/index.html',
 
     function(err) {
 
