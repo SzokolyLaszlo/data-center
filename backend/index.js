@@ -23,6 +23,7 @@ const CdHandler = require('./handlers/CompanyDataHandler');
 const DfsHandler = require('./handlers/DbFieldSelectorHandler');
 const CccHandler = require('./handlers/CostCentreCatalogueHandler');
 const FsHandler = require('./handlers/FileSystemHandler');
+const Fs = require('fs');
 
 
 
