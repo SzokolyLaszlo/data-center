@@ -44,7 +44,7 @@ const App = Express();
 
 App.use(Cors(CorsOptions));
 App.use(CookieParser());
-App.use(Express.static(parentDir + '/frontend/build'));
+App.use(Express.static(Path.join(parentDir, '/frontend/build')));
 
 console.log(parentDir + '/frontend/build');
 
@@ -264,12 +264,13 @@ App.get('*', function(req, res) {
 
   res.sendFile(
 
-    parentDir + '/frontend/build/index.html',
+    Path.join(parentDir, '/frontend/build/index.html'),
 
     function(err) {
 
       if (err) {
 
+        console.log(err);
         res.status(500).send(err);
       }
   });
