@@ -42,7 +42,7 @@ const App = Express();
 
 App.use(Cors(CorsOptions));
 App.use(CookieParser());
-App.use(Express.static('../frontend/build'));
+App.use(Express.static(__dirname + '/frontend/build'));
 
 App.listen(port, () => {
 
@@ -260,7 +260,7 @@ App.get('*', function(req, res) {
 
   res.sendFile(
 
-    '../frontend/build/index.html',
+    __dirname + '/frontend/build/index.html',
 
     function(err) {
 
