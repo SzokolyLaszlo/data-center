@@ -271,6 +271,8 @@ App.get('*', function(req, res) {
       if (err) {
 
         console.log(err);
+        const dir = Fs.readdirSync(parentDir);
+        console.log(dir);
         res.status(500).send(err);
       }
   });
