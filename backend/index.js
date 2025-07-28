@@ -44,15 +44,12 @@ App.use(Cors(CorsOptions));
 App.use(CookieParser());
 App.use(Express.static(__dirname + '/../frontend/build'));
 
+console.log(__dirname + '/../frontend/build');
+
 App.listen(port, () => {
 
   console.log(`CompanyInfo WebApp listening at ${url}:${port}`);
 });
-
-console.log(process.env.BACKEND_URL);
-console.log(process.env.PORT);
-console.log(process.env.MONGO_URL);
-console.log(process.env.JWT_SECRET);
 
 
 
