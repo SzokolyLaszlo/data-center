@@ -13,8 +13,8 @@ import FileReplacer from './components/FileReplacer'
 import PasswordChanger from './components/PasswordChanger'
 import SuccessHandler from './components/SuccessHandler'
 
-const url = process.env.REACT_APP_BACKEND_URL
-const port = process.env.REACT_APP_BACKEND_PORT
+const url = "http://localhost"
+const port = "5000"
 
 console.log(url)
 console.log(port)
