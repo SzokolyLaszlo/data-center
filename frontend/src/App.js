@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState, useCallback, useRef } from 'react'
+import 'dotenv/config'
 import Axios from 'axios'
 import LoginPage from './pages/LoginPage'
 import LegalNotice from './pages/LegalNotice'
@@ -12,6 +13,9 @@ import FileDeleter from './components/FileDeleter'
 import FileReplacer from './components/FileReplacer'
 import PasswordChanger from './components/PasswordChanger'
 import SuccessHandler from './components/SuccessHandler'
+
+const url = process.env.BACKEND_URL
+const port = process.env.PORT
 
 function App() {
 
@@ -169,7 +173,7 @@ function App() {
 
     if (noCookies === undefined || !noCookies) {
 
-      Axios.get(`http://localhost:8080/api/profile`)
+      Axios.get(`${url}:${port}/api/profile`)
         .then(res => setUserData(res.data))
         .catch(err => console.log(err))
     }
@@ -181,7 +185,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    Axios.get(`http://localhost:8080/api${path}`)
+    Axios.get(`${url}:${port}/api${path}`)
       .then(res => dataSetter(res.data))
       .catch(err => console.log(err))
   },
@@ -192,7 +196,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.post(`http://localhost:8080/api${path}`)
+    await Axios.post(`${url}:${port}/api${path}`)
       .catch(err => console.log(err))
   },
     [verifyCookies]
@@ -202,7 +206,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.delete(`http://localhost:8080/api${path}`)
+    await Axios.delete(`${url}:${port}/api${path}`)
   },
     [verifyCookies]
   )
@@ -258,6 +262,9 @@ function App() {
 
     currentPath={currentCompanyInfoPath} pathSetter={setCompanyInfoPath}
     currentMenupoint={currentCompanyInfoMenupoint} menupointSetter={setCompanyInfoMenupoint}
+
+    url={url}
+    port={port}
 
     paramGetter={getParams}
     dataGetter={getData}
@@ -355,6 +362,9 @@ function App() {
 
     currentPath={currentSiteInfoPath} pathSetter={setSiteInfoPath}
     currentMenupoint={currentSiteInfoMenupoint} menupointSetter={setSiteInfoMenupoint}
+
+    url={url}
+    port={port}
 
     paramGetter={getParams}
     dataGetter={getData}

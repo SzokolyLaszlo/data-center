@@ -21,6 +21,8 @@ function CompanyInfo({
   currentPath, pathSetter,
   currentMenupoint, menupointSetter,
 
+  url, port,
+
   paramGetter, dataGetter, dataDeleter,
 
   passwordChangeSetter, signOutSetter,
@@ -554,6 +556,9 @@ function CompanyInfo({
     type={type}
     subtitle={menupoint13.name}
     path={menupoint13.destination}
+
+    url={url}
+    port={port}
 
     paramGetter={paramGetter}
     dataGetter={dataGetter}

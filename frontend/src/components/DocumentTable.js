@@ -21,6 +21,9 @@ import Axios from 'axios'
 
 function DocumentTable({
     path,
+    
+    url,
+    port,
 
     dataGetter,
 
@@ -184,7 +187,7 @@ function DocumentTable({
 
         Axios.get(
 
-            `http://localhost:8080/api${paramPath}`,
+            `${url}:${port}/api${paramPath}`,
             { responseType: 'blob' })
             .then(res => {
 

@@ -13,6 +13,9 @@ function Documents({
     subtitle,
     path,
 
+    url,
+    port,
+
     paramGetter,
     dataGetter,
 
@@ -152,6 +155,9 @@ function Documents({
 
                 <DocumentTable
                     path={path}
+
+                    url={url}
+                    port={port}
 
                     paramGetter={paramGetter}
                     dataGetter={dataGetter}

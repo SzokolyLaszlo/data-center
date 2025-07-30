@@ -31,7 +31,7 @@ const port = process.env.PORT;
 
 const parentDir = Path.normalize(__dirname + '/..');
 
-const db0 = "Metadata";
+const db0 = 'Metadata';
 const db1 = 'CompanyInfo';
 const db2 = 'SiteInfo';
 
@@ -141,7 +141,7 @@ App.get('/api/via/koltseghelykatalogus', async function (req, res) {
 
 App.get('/api/via/dokumentumok', async function (req, res) {
 
-  await FsHandler.handleFileOperation(req, res, "/company_info_documents/");
+  await FsHandler.handleFileOperation(req, res, '/company_info_documents/');
 });
 
 App.post('/api/via/dokumentumok', FsHandler.upload.single("file"), async function (req, res) {
@@ -198,7 +198,7 @@ App.get('/api/tia/koltseghelykatalogus', async function (req, res) {
 
 App.get('/api/tia/dokumentumok', async function (req, res) {
 
-  await FsHandler.handleFileOperation(req, res, "/site_info_documents/");
+  await FsHandler.handleFileOperation(req, res, '/site_info_documents/');
 });
 
 App.post('/api/tia/dokumentumok', FsHandler.upload.single("file"), async function (req, res) {
