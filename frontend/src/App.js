@@ -14,7 +14,7 @@ import PasswordChanger from './components/PasswordChanger'
 import SuccessHandler from './components/SuccessHandler'
 
 const url = "http://localhost"
-const port = "5000"
+const port = "80"
 
 console.log(url)
 console.log(port)
