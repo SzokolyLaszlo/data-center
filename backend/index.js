@@ -55,6 +55,8 @@ App.listen(port, () => {
 
 App.get('/api/login', async function (req, res) {
 
+  console.log(req);
+
   await UserHandler.handleLogin(req, res);
 });
 
