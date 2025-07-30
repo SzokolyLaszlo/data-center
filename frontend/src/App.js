@@ -15,9 +15,11 @@ import SuccessHandler from './components/SuccessHandler'
 
 const url = "http://localhost"
 const port = "80"
+const apiURL = `${url}:${port}`
 
 console.log(url)
 console.log(port)
+console.log(apiURL)
 
 function App() {
 
@@ -175,7 +177,7 @@ function App() {
 
     if (noCookies === undefined || !noCookies) {
 
-      Axios.get(`${url}:${port}/api/profile`)
+      Axios.get(`${apiURL}/api/profile`)
         .then(res => setUserData(res.data))
         .catch(err => console.log(err))
     }
@@ -187,7 +189,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    Axios.get(`${url}:${port}/api${path}`)
+    Axios.get(`${apiURL}/api${path}`)
       .then(res => dataSetter(res.data))
       .catch(err => console.log(err))
   },
@@ -198,7 +200,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.post(`${url}:${port}/api${path}`)
+    await Axios.post(`${apiURL}/api${path}`)
       .catch(err => console.log(err))
   },
     [verifyCookies]
@@ -208,7 +210,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.delete(`${url}:${port}/api${path}`)
+    await Axios.delete(`${apiURL}/api${path}`)
   },
     [verifyCookies]
   )
