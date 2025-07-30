@@ -27,7 +27,7 @@ const FsHandler = require('./handlers/FileSystemHandler');
 
 
 const url = process.env.BACKEND_URL;
-const port = process.env.PORT;
+const port = process.env.BACKEND_PORT;
 
 const parentDir = Path.normalize(__dirname + '/..');
 

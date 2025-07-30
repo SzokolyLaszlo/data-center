@@ -1,7 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState, useCallback, useRef } from 'react'
-import 'dotenv/config'
 import Axios from 'axios'
 import LoginPage from './pages/LoginPage'
 import LegalNotice from './pages/LegalNotice'
@@ -14,8 +13,11 @@ import FileReplacer from './components/FileReplacer'
 import PasswordChanger from './components/PasswordChanger'
 import SuccessHandler from './components/SuccessHandler'
 
-const url = process.env.BACKEND_URL
-const port = process.env.PORT
+const url = process.env.REACT_APP_BACKEND_URL
+const port = process.env.REACT_APP_BACKEND_PORT
+
+console.log(url)
+console.log(port)
 
 function App() {
 
