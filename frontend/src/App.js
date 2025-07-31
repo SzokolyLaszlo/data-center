@@ -15,11 +15,11 @@ import SuccessHandler from './components/SuccessHandler'
 
 const url = "http://localhost"
 const port = "5000"
-const apiURL = `${url}:${port}`
+const apiUrl = `${url}:${port}`
 
 console.log(url)
 console.log(port)
-console.log(apiURL)
+console.log(apiUrl)
 
 function App() {
 
@@ -177,7 +177,7 @@ function App() {
 
     if (noCookies === undefined || !noCookies) {
 
-      Axios.get(`${apiURL}/api/profile`)
+      Axios.get(`${apiUrl}/api/profile`)
         .then(res => setUserData(res.data))
         .catch(err => console.log(err))
     }
@@ -189,7 +189,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    Axios.get(`${apiURL}/api${path}`)
+    Axios.get(`${apiUrl}/api${path}`)
       .then(res => dataSetter(res.data))
       .catch(err => console.log(err))
   },
@@ -200,7 +200,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.post(`${apiURL}/api${path}`)
+    await Axios.post(`${apiUrl}/api${path}`)
       .catch(err => console.log(err))
   },
     [verifyCookies]
@@ -210,7 +210,7 @@ function App() {
 
     await verifyCookies(noCookies)
 
-    await Axios.delete(`${apiURL}/api${path}`)
+    await Axios.delete(`${apiUrl}/api${path}`)
   },
     [verifyCookies]
   )
@@ -267,8 +267,7 @@ function App() {
     currentPath={currentCompanyInfoPath} pathSetter={setCompanyInfoPath}
     currentMenupoint={currentCompanyInfoMenupoint} menupointSetter={setCompanyInfoMenupoint}
 
-    url={url}
-    port={port}
+    apiUrl={apiUrl}
 
     paramGetter={getParams}
     dataGetter={getData}
@@ -367,8 +366,7 @@ function App() {
     currentPath={currentSiteInfoPath} pathSetter={setSiteInfoPath}
     currentMenupoint={currentSiteInfoMenupoint} menupointSetter={setSiteInfoMenupoint}
 
-    url={url}
-    port={port}
+    apiUrl={apiUrl}
 
     paramGetter={getParams}
     dataGetter={getData}
@@ -434,6 +432,8 @@ function App() {
 
       <FileUploader
         path={uploadPath}
+
+        apiUrl={apiUrl}
 
         checkForExistingFile={checkForExistingFile.current}
 

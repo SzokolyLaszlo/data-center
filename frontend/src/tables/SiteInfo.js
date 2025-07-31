@@ -19,7 +19,7 @@ function SiteInfo({
     currentPath, pathSetter,
     currentMenupoint, menupointSetter,
 
-    url, port,
+    apiUrl,
 
     paramGetter, dataGetter, dataDeleter,
 
@@ -279,8 +279,7 @@ function SiteInfo({
         subtitle={menupoint10.name}
         path={menupoint10.destination}
 
-        url={url}
-        port={port}
+        apiUrl={apiUrl}
 
         paramGetter={paramGetter}
         dataGetter={dataGetter}

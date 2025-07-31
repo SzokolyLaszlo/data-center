@@ -13,8 +13,7 @@ function Documents({
     subtitle,
     path,
 
-    url,
-    port,
+    apiUrl,
 
     paramGetter,
     dataGetter,
@@ -156,8 +155,7 @@ function Documents({
                 <DocumentTable
                     path={path}
 
-                    url={url}
-                    port={port}
+                    apiUrl={apiUrl}
 
                     paramGetter={paramGetter}
                     dataGetter={dataGetter}

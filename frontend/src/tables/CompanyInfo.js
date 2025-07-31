@@ -21,7 +21,7 @@ function CompanyInfo({
   currentPath, pathSetter,
   currentMenupoint, menupointSetter,
 
-  url, port,
+  apiUrl,
 
   paramGetter, dataGetter, dataDeleter,
 
@@ -557,8 +557,7 @@ function CompanyInfo({
     subtitle={menupoint13.name}
     path={menupoint13.destination}
 
-    url={url}
-    port={port}
+    apiUrl={apiUrl}
 
     paramGetter={paramGetter}
     dataGetter={dataGetter}

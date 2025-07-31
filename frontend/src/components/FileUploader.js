@@ -6,6 +6,8 @@ import DialogueButton from './DialogueButton'
 function FileUploader({
     path,
 
+    apiUrl,
+
     checkForExistingFile,
 
     replaceFileSetter,
@@ -43,7 +45,7 @@ function FileUploader({
 
                 await Axios.post(
 
-                    `http://localhost:8080/api${paramPath}`,
+                    `${apiUrl}/api${paramPath}`,
                     formData,
 
                     {
